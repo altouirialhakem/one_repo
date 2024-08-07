@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <img class="logo" src="img/logo.png" alt="">
+            <h2 class="fadhel">fadhel</h2>
+            <div class="links">
+                <span class="icon" onclick="show();" ondblclick="hide();">
+                    <span></span>
+                    <span id="ll"></span>
+                    <span></span>
+                </span>
+                <ul class="navigation" id="sh">
+                    <li><a href="#">home</a></li>
+                    <li><a href="#projects">products</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#contact">contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="content">
+            <div class="text">
+                <h2>iphone 13 pro max</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                     Esse ullam quisquam adipisci quia facilis nostrum ipsam
+                      vel reprehenderit ratione totam!</p>
+                      <a href="#" class="btn">all products</a>
+                      <div class="social-icons">
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+            </div>
+            <div class="image">
+                <img class="img" src="img/0.png" alt="">
+            </div>
+        </div>
+        <div class="icons">
+            <img onclick="phones(this.src); colors('#000')" src="img/0.png" alt="">
+            <img onclick="phones(this.src); colors('#247ec8')" src="img/1.png" alt="">
+            <img onclick="phones(this.src); colors('#1e1e1e')" src="img/2.png" alt="">
+            <img onclick="phones(this.src); colors('#c79b53')" src="img/3.png" alt="">
+            <img onclick="phones(this.src); colors('#c82525')" src="img/4.png" alt="">
+        </div>
+    </header>
+    <!----------end header------------>
+
+    <section class="cards" id="services">
+        <h2 class="title" >Services</h2>
+        <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+        <div class="content2">
+            <div class="card">
+                <div class="icon2">
+                    <i class="fa fa-shopping-bag"></i>
+                </div>
+                <div class="info">
+                    <h2>Script Writing</h2>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Minima maxime quam
+                         architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon2">
+                   <i class="fa fa-server"></i>
+                </div>
+                <div class="info">
+                    <h2>Responsive Design</h2>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Minima maxime quam
+                         architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon2">
+                    <i class="fa fa-search"></i>
+                </div>
+                <div class="info">
+                    <h2>Web Security</h2>
+                    <p>Lorem ipsum dolor sit amet, 
+                        consectetur adipisicing elit. Minima maxime quam
+                         architecto quo inventore harum ex magni, dicta impedit.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+   <!---------end services------------->
+
+    <section class="projects" id="projects">
+        <h2 class="title">Projects </h2>
+        <div class="div-h3">
+        <h3>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit.
+             Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea.
+              Quia fugiat sit in iste officiis commodi quidem hic quas</h3>
+        </div>
+        <ul class="list-ul">
+            <li class="active"><a href="#">All</a></li>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">about</a></li>
+            <li><a href="#">login</a></li>
+        </ul>
+        
+        <div class="content2">
+            <div class="pp">
+                <div class="project-image">
+                    <img src="img/Apple-Magic.jpg" alt="">
+                </div>
+                <p>Keyboard-For-Ipad-Pro<span class="price">349$</span></p>
+            </div>
+
+            <div class="pp">
+                <div class="project-image">
+                    <img src="img/0111092 1q-1200x1200w.jpg" alt="">
+                </div>
+                <p>Apple-iMac <span class="price"> 1999$</span></p>
+            </div>
+               
+            <div class="pp">
+                <div class="project-image">
+                    <img src="img/iPhone-14-Pro-Max.jpg" alt="">
+                </div>
+                <p>iPhone-14-Pro-Max<span class="price"> 1099$</span></p>
+            </div>
+
+            <div class="pp">
+                <div class="project-image">
+                    <img src="img/Apple-Watch.jpg" alt="">
+                </div>
+                <p>Apple-Watch SE2<span class="price"> 249$</span></p>
+            </div>
+
+            <div class="pp">
+                <div class="project-image">
+                    <img src="img/MacBook.jpg" alt="">
+                </div>
+                <p>Apple-MacBook<span class="price">1799$</span></p>
+            </div>
+
+            <div class="pp">
+                <div class="project-image">
+                    <img src="img/Apple-AirPods-Pro.jpg" alt="">
+                </div>
+                <p>Apple-AirPods-Pro<span class="price"> 199$</span></p>
+            </div>
+                <div class="pp">
+                <div class="project-image">
+                    <img src="img/iPad Pro 6th Gen.jpg" alt="">
+                </div>
+                <p>iPad Pro 6th Gen<span class="price"> 799$</span></p>
+                </div>
+
+                <div class="pp">
+                <div class="project-image">
+                    <img src="img/iPhone-14-.jpg" alt="">
+                </div>
+                <p>iPhone-14<span class="price"> 799$</span></p>
+                </div>
+        </div>
+    </section>
+        <section class="about">
+            <h2 class="title">About...</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            <div class="div-p-img">
+                <img src="img/services4.jpg" alt=""><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    . Provident ad excepturi quo modi. Sed a similique dolorem optio sint unde tempora repellendus!
+                     Tenetur nihil repellat, mollitia ipsa dolorem accusamus quo? Numquam optio alias quod? Fugiat
+                      maiores itaque optio consectetur reprehenderit soluta quas natus consequatur neque et expedita,
+                       temporibus porro saepe voluptate delectus dolor. Tempora quae sint molestias distinctio.
+                        Iste ullam officiis tenetur eveniet animi nisi id consequatur quis fugiat. Quis.
+                       </p>
+            </div>
+            <div class="div-p-img">
+                <p class="p2">Lorem ipsum dolor, sit amet consectetur adipisicing elit
+                    . Provident ad excepturi quo modi. Sed a similique dolorem optio sint unde tempora repellendus!
+                     Tenetur nihil repellat, mollitia ipsa dolorem accusamus quo? Numquam optio alias quod? Fugiat
+                      maiores itaque optio consectetur reprehenderit soluta quas natus consequatur neque et expedita,
+                       temporibus porro saepe voluptate delectus dolor. Tempora quae sint molestias distinctio.
+                        Iste ullam officiis tenetur eveniet animi nisi id consequatur quis fugiat. Quis.
+                       </p>
+                       <img src="img/shutterstock_262969637.jpg" class="img2" alt="">
+            </div>
+            <a href="#">Start ></a>
+    </section>
+
+    <div class="containers">
+        <figure class="item1">
+            <img src="img/nayris-aquino-IUoeSXRyFEQ-unsplash.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item2">
+            <img src="img/maxim-hopman-Hin-rzhOdWs-unsplash.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item3">
+            <img src="img/quaritsch-photography-m2zuB8DqwyM-unsplash.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item4">
+            <img src="img/kenny-eliason-jLLHEaEe0Jc-unsplash.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item5">
+            <img src="img/mark-chan-Ho1hgciNJMU-unsplash.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item6">
+            <img src="img/the-blowup-lD1OLuSf9GU-unsplash.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item7">
+            <img src="img/product4.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item8">
+            <img src="img/ab-wgslH4XlNCc-unsplash.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item9">
+            <img src="img/0_46uVgdUPhSbY8HeG-scaled.jpg" class="show-img" alt="">
+        </figure>
+        <figure class="item10">
+            <img src="img/david-svihovec-_E1AMQ35pjw-unsplash.jpg" class="show-img" alt="">
+        </figure>
+    </div>
+    
+
+    <section class="page-section" id="contact">
+        <div class="container">
+            <div class="text-center">
+            <h2 class="title">Contact Us</h2>
+            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
+            </div>
+            <form id="contactform">
+                <div class="all-input">
+                <div class="inputs">
+                <input type="text" placeholder="Your Name.."name="name" class="cntrol"  >
+                <input type="email" placeholder="Your Email.." name="mail" class="cntrol" >
+                <input type="tel" placeholder="Your Phone.." name="phone" class="cntrol" >
+                </div>
+                <div class="message">
+                 <textarea placeholder="Your Message.."></textarea>
+                </div>
+                </div>
+                <input type="submit"  value="SEND MESSAGE" class="send" >
+            </form>
+        </div>
+
+    </section>
+    <section class="cards contact" id="content">
+        <h2 class="title">to communicate</h2>
+        <h3>Let's work to togethrt</h3>
+        <div class="content2">
+            <div class="card">
+                <div class="icon2" style="color: #3a6cf4;">
+                    <i class="fas fa-phone"></i>
+                </div>
+                <div class="info">
+                    <h2>Phone</h2>
+                    <p>+967 777358931</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon2" style="color: #3a6cf4;">
+                    <i class="fas fa-envelope"></i>
+                </div>
+                <div class="info">
+                    <h2>Email</h2>
+                    <p>Fadhel@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <p class="footer-title">copyrights @ <span>Abdulrahman</span></p>
+        <form action="">
+            <input type="email">
+            <input type="submit" value="Send">
+        </form>
+        <div class="social-icons">
+            <a href="#"><i class="fab fa-linkedin"></i></a>
+            <a href="#"><i class="fab fa-twitter"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+        </div>
+    </footer>
+    <script src="js/main.js"></script>
+</body>
+</html>
+<script src="js/jquery-1.11.1.min.js"></script>
